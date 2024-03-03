@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArcGIS defaultAssembly="Task2_Configuration.dll"
+        defaultNamespace="Task2_Configuration"
+        xmlns="http://schemas.esri.com/DADF/Registry"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+
+  <AddInInfo id="{8128524a-056b-45c3-acaf-81d9a4c2d311}" version="1.0" desktopVersion="2.8.29751">
+    <Name>Task2_Configuration</Name>
+    <Description>Task2_Configuration description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>nrt</Author>
+    <Company>Acme</Company>
+    <Date>2/26/2024 11:10:36 AM</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+
+  <Configuration>
+    <ConfigurationManager className="ConfigurationManager1"/>
+  </Configuration>
+
+  <modules>
+    <insertModule id="Task2_Configuration_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="Task2_Configuration_Tab1" caption="New Tab">
+          <group refID="Task2_Configuration_Group1"/>
+        </tab>-->
+      </tabs>
+
+      <groups>
+
+      </groups>
+
+      <controls>
+        <!-- add your controls here -->
+      </controls>
+
+    </insertModule>
+  </modules>
+</ArcGIS>
